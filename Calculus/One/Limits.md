@@ -65,7 +65,7 @@ $$ \lim_{x \to 0}\frac{sin^2(x)}{x(1+cos(x))} = \lim_{x \to 0}\frac{sin(x)}{1+co
 
 $i) \lim_{x \to \frac{\pi}{2}}\frac{1-sin(x)}{2x - \pi}$
 
-Let $ x = \frac{\pi}{2} + h$, therefore, $\lim_{x \to \frac{\pi}{2}} \Rightarrow \lim_{h\to 0}$
+Let $x = \frac{\pi}{2} + h$, therefore, $\lim_{x \to \frac{\pi}{2}} \Rightarrow \lim_{h\to 0}$
 
 
 $$ \lim_{x \to \frac{\pi}{2}}\frac{1-sin(x)}{2x - \pi} = \lim_{h \to 0} \frac{1-sin(h+\frac{\pi}{2})}{\pi + 2h-\pi} = \lim_{h \to 0}\frac{1-cos(h)}{2h} $$
@@ -76,7 +76,7 @@ $$ \lim_{h \to 0}\frac{sin^2(h)}{2h(1 + cos(h))} = \lim_{h \to 0}\frac{sin(h)}{2
 
 $j) \lim_{x \to 0} x\cdot sin\left(\frac{1}{x}\right)$
 
-Since $-1 \leq sin\left(\frac{1}{x}\right) \leq 1 $ we have that $ 0 \leq \mid sin\left(\frac{1}{x}\right) \mid \leq 1$. Multiplying the inequation by $\mid x \mid$.
+Since $-1 \leq sin\left(\frac{1}{x}\right) \leq 1$ we have that $0 \leq \mid sin\left(\frac{1}{x}\right) \mid \leq 1$. Multiplying the inequation by $\mid x \mid$.
 
 $$ 0 \leq \mid x \mid \cdot \mid sin\left(\frac{1}{x}\right) \mid \leq \mid x \mid $$
 
