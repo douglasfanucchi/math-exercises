@@ -99,3 +99,19 @@ $m) \lim_{x \to p}\frac{sin(x^2-p^2)}{x - p}$
 $$\lim_{x \to p}\frac{sin(x^2-p^2)}{x - p} = \lim_{x \to p}\frac{sin((x-p)(x+p))}{x-p} $$
 
 $$ = \lim_{x \to p} \frac{sin((x-p)(x+p))(x+p)}{(x-p)(x+p)} = \lim_{x \to p} x+p = 2p$$
+
+---
+
+$n) \lim_{x \to 0}\frac{sin(x^2+\frac{1}{x})-sin(\frac{1}{x})}{x}$
+
+---
+
+$o) \lim_{x\to 0}\frac{x+sin(x)}{x^2-sin(x)}$
+
+---
+
+$p) \lim_{x\to 0}\frac{x-tan(x)}{x+tan(x)}$
+
+---
+
+$q) \lim_{x\to 1}\frac{sin(\pi x)}{x-1}$
