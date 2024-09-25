@@ -104,13 +104,27 @@ $$ = \lim_{x \to p} \frac{sin((x-p)(x+p))(x+p)}{(x-p)(x+p)} = \lim_{x \to p} x+p
 
 $n) \lim_{x \to 0}\frac{sin(x^2+\frac{1}{x})-sin(\frac{1}{x})}{x}$
 
+$$\lim_{x \to 0}\frac{sin(x^2+\frac{1}{x})-sin(\frac{1}{x})}{x} = \lim_{x \to 0}\frac{2sin(\frac{x^2 + \frac{1}{x} - \frac{1}{x}}{2})cos(\frac{x^2+\frac{2}{x}}{2})}{x}$$
+
+$$\lim_{x \to 0}\frac{2sin(\frac{x^2}2)cos(\frac{x^2}{2} + \frac{1}{x})}{x} = \lim_{x \to 0}\frac{2sin(\frac{x^2}{2})cos(\frac{x^2}{2} + \frac{1}{x})}{x} \cdot \frac{\frac{x^2}{2}}{\frac{x^2}{2}}$$
+
+$$\lim_{x \to 0}\frac{2cos(\frac{x^2}{2}+\frac{1}{x})\cdot x^2}{x\cdot 2} = \lim_{x \to 0}cos\left(\frac{x^2}{2}+\frac{1}{x}\right)x = 0$$
+
 ---
 
 $o) \lim_{x\to 0}\frac{x+sin(x)}{x^2-sin(x)}$
 
+$$\lim_{x\to 0}\frac{x+sin(x)}{x^2-sin(x)} = \lim_{x\to 0}\frac{x^2(\frac{1}{x} + \frac{sin(x)}{x^2})}{x^2(1-\frac{sin(x)}{x^2})} = \lim_{x\to 0}\frac{\frac{1}{x} + \frac{sin(x)}{x^2}}{1-\frac{sin(x)}{x^2}} = \lim_{x\to 0}\frac{\frac{1}{x}+\frac{1}{x}}{1 - \frac{1}{x}}$$
+
+$$\lim_{x\to 0}\frac{\frac{2}{x}}{1-\frac{1}{x}} = \lim_{x \to 0}\frac{\frac{2}{x}}{\frac{x-1}{x}} = \lim_{x \to 0}\frac{2}{x}\cdot \frac{x}{x-1} = \lim_{x \to 0}\frac{2}{x-1} = \frac{2}{-1} = -2$$
+
 ---
 
 $p) \lim_{x\to 0}\frac{x-tan(x)}{x+tan(x)}$
+
+$$\lim_{x\to 0}\frac{x-tan(x)}{x+tan(x)} = \lim_{x\to 0}\frac{x(1 - \frac{sin(x)}{cos(x)x})}{x(1 + \frac{sin(x)}{cos(x)x})} = \lim_{x\to 0}\frac{1 - \frac{1}{cos(x)}}{1+\frac{1}{cos(x)}}= \lim_{x \to 0}\frac{\frac{cos(x) - 1}{cos(x)}}{\frac{cos(x) + 1}{cos(x)}}$$
+
+$$\lim_{x \to 0}\frac{cos(x)-1}{cos(x)}\cdot \frac{cos(x)}{cos(x) + 1} = \lim_{x \to 0}\frac{cos(x) - 1}{cos(x) + 1} = \frac{0}{2} = 0$$
 
 ---
 
