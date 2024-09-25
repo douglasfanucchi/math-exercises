@@ -129,3 +129,9 @@ $$\lim_{x \to 0}\frac{cos(x)-1}{cos(x)}\cdot \frac{cos(x)}{cos(x) + 1} = \lim_{x
 ---
 
 $q) \lim_{x\to 1}\frac{sin(\pi x)}{x-1}$
+
+$$\lim_{x\to 1}\frac{sin(\pi x)}{x-1} = \lim_{x \to 1} \frac{sin(\pi x + \pi - \pi)}{x-1} = \lim_{x \to 1}\frac{sin(\pi[x - 1] + \pi)}{x-1}$$
+
+$$\lim_{x \to 1}\frac{sin(\pi [x - 1])cos(\pi) + sin(\pi)cos(\pi [x- 1])}{x-1} = \lim_{x \to 1}\frac{sin(\pi[x-1])}{x-1}$$
+
+$$\lim_{x \to 1}\frac{sin(\pi [x- 1)}{x-1}\cdot \frac{\pi}{\pi} = \lim_{x \to 1}\frac{sin(\pi [x-1])}{\pi[x-1]}\cdot \pi = \lim_{x \to 1} \pi = \pi$$
