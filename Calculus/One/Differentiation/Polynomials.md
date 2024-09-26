@@ -141,3 +141,15 @@ we have $y=x-1$ being the equation of the tangent line at $p = 1$
 - $g(x) = \frac{1}{x^7} \Rightarrow g'(x) = -\frac{7}{x^8}$
 
 - $g(x) = x^{-3} \Rightarrow g'(x) = \frac{-3}{x^4}$
+
+---
+
+7. Calculate $g'(x)$, $g$ being:
+
+- $g(x) = \sqrt[4]{x} \Rightarrow g'(x) = \frac{1}{4\sqrt[4]{3}}$
+
+- $g(x) = \sqrt[8]{x} \Rightarrow g'(x) = \frac{1}{8\sqrt{8}{x^7}}$
+
+- $g(x) = \sqrt[6]{x} \Rightarrow g'(x) = \frac{1}{6\sqrt[6]{x^5}}$
+
+- $g(x) = \sqrt[9]{x} \Rightarrow g'(x) = \frac{1}{9\sqrt[9]{x^8}}$
