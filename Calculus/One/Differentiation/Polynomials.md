@@ -57,3 +57,69 @@ $$f'(x) = \lim_{x \to x_0}\frac{3x + 2-(3x_0 + 2)}{x-x_0} = \lim_{x \to x_0}\fra
 - $f(x) = \frac{1}{x^2} \Rightarrow f'(x) = -\frac{2}{x^3}$
 
 - $f(x) = \sqrt[3]{x} \Rightarrow f'(x) = \frac{1}{3\sqrt[3]{x^2}}$
+
+---
+
+5. Find the tangent line to the graph of:
+
+- $f(x) = x^2$
+
+Since $f'(x) = 2x$ then to find the slope of the tangent line at a certain point $p$ will be $f(p) = 2p$. We have that slope is equal $\frac{y - y_0}{x - x_0}$, then:
+
+$$2p = \frac{y - f(p)}{x - p} \Rightarrow 2p(x-p) + f(p) = y$$
+
+$$y = 2px - 2p^2 + f(p)$$
+
+So if we take $p = 2$ 
+
+$$y = 2\cdot 2 \cdot x - 2(2)^2 + f(2) = 4x-8+4 = 4x-4$$
+
+We have $y = 4x-4$ as the equation fo the tangent line of $f(x)$ at $x = 2$
+
+---
+
+- $f(x) = \sqrt{x}$
+
+Since $f'(x) = \frac{1}{2\sqrt{x}}$:
+
+$$\frac{1}{2\sqrt{p}} = \frac{y - f(p)}{x - p} \Rightarrow \frac{x-p}{2\sqrt{p}}+f(p) = y$$
+
+$$y = \frac{x-p}{2\sqrt{p}} + f(p)$$
+
+So if we take p = 9
+
+$$y = \frac{x-9}{2\sqrt{9}} + f(9) = \frac{x-9}{6} +3 = \frac{x+9}{6}$$
+
+We have $y = \frac{x+9}{6}$ as the equation of the tangent line at $p = 9$.
+
+---
+
+- $f(x) = \frac{1}{x}$
+
+Since $f'(x) = -\frac{1}{x^2}$, the line equation at a certain point $p$ is:
+
+$$- \frac{1}{p^2} = \frac{y - f(p)}{x-p} \Rightarrow -\frac{x-p}{p^2} + f(p) = y$$
+
+$$y = -\frac{x-p}{p^2} + f(p)$$
+
+Taking $p = 2$
+
+$$y = -\frac{x - 2}{2^2} + f(2) = \frac{2-x}{4} + \frac{1}{2} = \frac{4-x}{4} = 1-\frac{x}{4}$$
+
+we have $y = 1-\frac{1}{4}$ being the equation of the tangent line at $p=2$
+
+---
+
+- $f(x) = x^2 - x$
+
+Since $f'(x) = 2x - 1$, the line equation at a certain point $p$ is:
+
+$$2p-1 = \frac{y - f(p)}{x - p} \Rightarrow (2p-1)(x-p) + f(p) = y$$
+
+$$y = 2px - 2p^2 -x +p +f(p)$$
+
+Taking $p = 1$
+
+$$y = 2\cdot 1 \cdot x - 2(1)^2 - x + 1 + f(1) = 2x-2-x+1+0 = x-1$$
+
+we have $y=x-1$ being the equation of the tangent line at $p = 1$
