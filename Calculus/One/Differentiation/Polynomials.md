@@ -19,3 +19,9 @@ $$f'(x) = \lim_{x \to x_0}\frac{x^2+1-(x_0^2 + 1)}{x - x_0} = \lim_{x \to x_0}\f
 $$=\lim_{x \to x_0}\frac{(x+x_0)(x-x_0)}{x-x_0} = \lim_{x \to x_0}x+x_0 = 2x_0 \Rightarrow f'(x) = 2x$$
 
 ---
+
+2) Let $f(x) = 2x$. Calculate $f'(x)$
+
+$$f'(x) = \lim_{x\to x_0}\frac{2x - 2x_0}{x-x_0} = \lim_{x \to x_0}\frac{2(x - x_0)}{x - x_0} = 2$$
+
+---
