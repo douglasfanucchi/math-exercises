@@ -25,3 +25,19 @@ $$=\lim_{x \to x_0}\frac{(x+x_0)(x-x_0)}{x-x_0} = \lim_{x \to x_0}x+x_0 = 2x_0 \
 $$f'(x) = \lim_{x\to x_0}\frac{2x - 2x_0}{x-x_0} = \lim_{x \to x_0}\frac{2(x - x_0)}{x - x_0} = 2$$
 
 ---
+
+3) Let $f(x) = 3x + 2$. Calculate:
+
+- $f'(2)$
+
+$$f'(2) = \lim_{x \to 2}\frac{3x + 2 - (6 + 2)}{x - 2} = \lim_{x \to 2}\frac{3x - 6}{x - 2} = \lim_{x \to 2}\frac{3(x - 2)}{x-2} = 3$$
+
+- $f'(0)$
+
+$$f'(0) = \lim_{x \to 0}\frac{3x + 2 - (3\cdot0 + 2)}{x-0} = \lim_{x \to 0}\frac{3x}{x} = 3$$
+
+- $f'(x)$
+
+$$f'(x) = \lim_{x \to x_0}\frac{3x + 2-(3x_0 + 2)}{x-x_0} = \lim_{x \to x_0}\frac{3x-3x_0}{x-x_0} = \lim_{x \to x_0}\frac{3(x - x_0)}{x-x_0} = 3$$
+
+---
