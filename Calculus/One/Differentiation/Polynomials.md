@@ -41,3 +41,19 @@ $$f'(0) = \lim_{x \to 0}\frac{3x + 2 - (3\cdot0 + 2)}{x-0} = \lim_{x \to 0}\frac
 $$f'(x) = \lim_{x \to x_0}\frac{3x + 2-(3x_0 + 2)}{x-x_0} = \lim_{x \to x_0}\frac{3x-3x_0}{x-x_0} = \lim_{x \to x_0}\frac{3(x - x_0)}{x-x_0} = 3$$
 
 ---
+
+4. Calculate $f'(x)$
+
+- $f(x) = x^2 + x \Rightarrow f'(x) = 2x$
+
+- $f(x) = 5x - 3 \Rightarrow f(x) = 5$
+
+- $f'(x) = \sqrt{x} \Rightarrow f'(x)=\frac{1}{2\sqrt{x}}$
+
+- $f(x) = 2x^3 - x^2 \Rightarrow f'(x) = 6x^2-2x$
+
+- $f(x) = \frac{1}{x} \Rightarrow f'(x) = -\frac{1}{x^2}$
+
+- $f(x) = \frac{1}{x^2} \Rightarrow f'(x) = -\frac{2}{x^3}$
+
+- $f(x) = \sqrt[3]{x} \Rightarrow f'(x) = \frac{1}{3\sqrt[3]{x^2}}$
