@@ -123,3 +123,21 @@ Taking $p = 1$
 $$y = 2\cdot 1 \cdot x - 2(1)^2 - x + 1 + f(1) = 2x-2-x+1+0 = x-1$$
 
 we have $y=x-1$ being the equation of the tangent line at $p = 1$
+
+---
+
+6. Calculate $g'(x)$, $g$ being:
+
+- $g(x) = x^6 \Rightarrow g'(x) = 6x^5$
+
+- $g(x) = x^{100} \Rightarrow g'(x) = 100x^{99}$
+
+- $g(x) = \frac{1}{x} \Rightarrow g'(x) = - \frac{1}{x^2}$
+
+- $g(x) = x^2 \Rightarrow g'(x) = 2x$
+
+- $g(x) = \frac{1}{x^3} \Rightarrow g'(x) = -\frac{3}{x^4}$
+
+- $g(x) = \frac{1}{x^7} \Rightarrow g'(x) = -\frac{7}{x^8}$
+
+- $g(x) = x^{-3} \Rightarrow g'(x) = \frac{-3}{x^4}$
