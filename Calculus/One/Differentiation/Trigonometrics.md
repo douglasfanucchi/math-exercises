@@ -21,3 +21,15 @@ $m = 1$
 $$1 = \frac{y - f(0)}{x - 0} = \frac{y}{x} \Rightarrow y = x$$
 
 ---
+
+3. Let $f(x) = cos(x)$. Calculate:
+
+- $f'(x) = -sin(x)$
+
+- $f'(0) = 0$
+
+- $f'(\frac{\pi}{3}) = -sin(\frac{\pi}{3}) = -\frac{\sqrt{3}}{2}$
+
+- $f'(\frac{\pi}{4}) = -sin(\frac{\pi}{4}) = -\frac{\sqrt{2}}{2}$
+
+---
