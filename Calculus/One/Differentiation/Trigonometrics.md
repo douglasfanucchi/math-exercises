@@ -87,3 +87,13 @@ $$= cotan(x) - \frac{1}{sen^2(x)} = cotan(x) - cossec^2(x)$$
 $$f'\left(\frac{\pi}{4}\right) = cotan\left(\frac{\pi}{4}\right) - cossec^2\left(\frac{\pi}{4}\right) = 1- \left(\frac{2}{\sqrt{2}}\right)^2 = 1-2= -1$$
 
 ---
+
+7. Let $g(x) = cossec(x)$. Calculate:
+
+- $g'(x)$
+
+$$g'(x) = \left(\frac{1}{sin(x)}\right)' = \frac{cos(x)}{sin^2(x)} = cotan(x)cossec(x)$$
+
+- $g'(\frac{\pi}{4})$
+
+$$g'\left(\frac{\pi}{4}\right) = cotan\left(\frac{\pi}{4}\right)cossec\left(\frac{\pi}{4}\right) = 1\cdot\frac{2}{\sqrt{2}} = 1\cdot \sqrt{2} = \sqrt{2}
