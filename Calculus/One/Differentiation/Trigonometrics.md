@@ -57,3 +57,17 @@ $$\left(\frac{1}{cos(x)}\right)' = \frac{1(-sin(x))}{cos^2(x)} = \frac{-sin(x)}{
 Therefore $f'(x) = -sec(x)tan(x)$
 
 ---
+
+5. Find the tangent line equation to the graph $f(x) = tan(x)$ where $x = 0$
+
+$f(x) = tan(x) \Rightarrow f'(x) = sec^2(x)$
+
+$m = f'(0) = sec^2(0) = 1$
+
+Since the line equation is $m = \frac{y - y_0}{x - x_0}$
+
+$$1 = \frac{y - f(0)}{x - x_0} = \frac{y - 0}{x - 0} = \frac{y}{x} \Rightarrow y = x$$
+
+Therefore the tangent line at $x= 0$ is $y = x$.
+
+---
