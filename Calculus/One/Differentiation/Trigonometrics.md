@@ -71,3 +71,19 @@ $$1 = \frac{y - f(0)}{x - x_0} = \frac{y - 0}{x - 0} = \frac{y}{x} \Rightarrow y
 Therefore the tangent line at $x= 0$ is $y = x$.
 
 ---
+
+6. Let $f(x) = cotan(x)$. Calculate:
+
+- $f'(x)$
+
+$$f'(x) = \left(\frac{1}{tan(x)}\right)' = \frac{tan(x)-sec^2(x)}{tan^2(x)} = \frac{tan}{tan^2(x)} - \frac{sec^2(x)}{tan^2(x)}$$
+
+$$f'(x) = cotan(x) - \frac{\frac{1}{cos^2(x)}}{\frac{sen^2(x)}{cos^2(x)}} = cotan(x) - \frac{1}{cos^2(x)}\cdot \frac{cos^2(x)}{sen^2(x)}$$
+
+$$= cotan(x) - \frac{1}{sen^2(x)} = cotan(x) - cossec^2(x)$$
+
+- $f'(\frac{\pi}{4})$
+
+$$f'\left(\frac{\pi}{4}\right) = cotan\left(\frac{\pi}{4}\right) - cossec^2\left(\frac{\pi}{4}\right) = 1- \left(\frac{2}{\sqrt{2}}\right)^2 = 1-2= -1$$
+
+---
