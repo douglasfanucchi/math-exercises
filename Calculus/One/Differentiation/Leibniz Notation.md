@@ -10,7 +10,7 @@ $$\frac{ds}{dt} = \frac{d}{dt}\left(\sqrt[5]{t} + \frac{3}{t}\right) = \frac{1}{
 
 - $x =  \frac{t}{t + 1}$
 
-$$\frac{dx}{dt} = \frac{d}{dt}\left(\frac{t}{t+1}\right) = \frac{t + 1 + t}{(t+1)^2} = \frac{2t + 1}{(t + 1)^2}$$
+$$\frac{dx}{dt} = \frac{d}{dt}\left(\frac{t}{t+1}\right) = \frac{t + 1 - t}{(t+1)^2} = \frac{t}{(t + 1)^2}$$
 
 - $y = tcos(t)$
 
@@ -34,15 +34,17 @@ $$\frac{ds}{dt} = tan(t)\frac{d}{dt}e^t + e^t\frac{d}{dt}tan(t) = tan(t) e^t + e
 
 - $y = \frac{x^3 + 1}{sin(x)}$
 
-$$\frac{dy}{dx} = \frac{d}{dx}\left(\frac{x^3}{sin(x)}\right) = \frac{sin(x)\frac{d}{dx}x^3 - x^3\frac{d}{dx}sin(x)}{sin^2(x)}$$
+$$\frac{dy}{dx} = \frac{d}{dy}\left(\frac{x^3 + 1}{sin(x)}\right) = \frac{sin(x)\frac{d}{dy}(x^3 + 1) - (x^3 + 1)\frac{d}{dy}sin(x)}{sin^2(x)}$$
 
-$$=\frac{sin(x)2x^2 - x^3cos(x)}{sin^2(x)}$$
+$$= \frac{3x^2sin(x) - (x^3 + 1)cos(x)}{sin^2(x)}$$
 
 - $y = \sqrt[3]{u}\cdot sec(u)$
 
 $$\frac{dy}{du} = \frac{d}{du}\sqrt[3]{u}\cdot sec(u) = sec(u)\frac{d}{du}\sqrt[3]{u} + \sqrt[3]{u}\frac{d}{du}sec(u)$$
 
 $$= sec(u) \frac{1}{3\sqrt[3]{u^2}} + \sqrt[3]{u}\cdot tan(u)\cdot sec(u)$$
+
+$$ = sec(u)\left[\frac{1}{3\sqrt[3]{u^2}} + \sqrt[3]{u} \cdot tan(u)\right] = sec(u)\left[\frac{1+3\cdot u \cdot tan(u)}{3\sqrt[3]{u^2}}\right]$$
 
 - $x = \frac{3}{t} + \frac{2}{t^2}$
 
@@ -74,6 +76,6 @@ $$\frac{dE}{dv} = \frac{d}{dV}\left(\frac{1}{2}mv^2\right) = \frac{m}{2}\frac{d}
 
 - $U = \frac{a}{x^{12}} - \frac{b}{x^6}$, $a$ and $b$ constants
 
-$$\frac{dU}{dx} = \frac{d}{dx}\left(\frac{a}{x^{12}} - \frac{b}{x^6}\right) = \frac{d}{dx}\left(\frac{a}{x^{12}}\right) - \frac{d}{dx}\left(\frac{b}{x^6}\right)$$
+$$\frac{dU}{dx}= \frac{d}{dx} \left(\frac{a}{x^{12}} - \frac{b}{x^6}\right) = \frac{d}{dx}\left(\frac{a}{x^{12}}\right) - \frac{d}{dx}\left(\frac{b}{x^6}\right)$$
 
-$$= \frac{-\frac{d}{dx}x^{12}}{x^{24}} - \frac{- b\frac{d}{dx}x^6}{x^{12}} = \frac{-12x^{11}}{x^{24}}- \frac{-6x^5b}{x^{24}} = \frac{-12}{x^{13}} + \frac{-6b}{x^{19}}$$
+$$= \frac{-a\frac{d}{dx}x^{12}}{x^{24}} - \frac{-b\frac{d}{dx}x^6}{x^{12}} = \frac{-12ax^{11}}{x^{24}} - \frac{-6bx^5}{x^{12}} = \frac{-12a}{x^{13}}+\frac{6b}{x^7}$$
