@@ -57,3 +57,9 @@ $$\frac{- x^2cos(x) - sin(x) - xcos(x)}{x^2sin^2(x)} = \frac{-xcos(x)(x + 1) - s
 ---
 
 - $(x^3 + \sqrt{x})cosec(x)$
+
+$$[(x^3 + \sqrt{x})cosec(x)]' = (x^3 + \sqrt{x})'cosec(x) + (x^3+\sqrt{x})cosec(x)'$$
+
+$$\left(3x^2 + \frac{1}{2\sqrt{x}}\right)cosec(x) + (x^3 + \sqrt{x})(-cotan(x)cosec(x))$$
+
+$$\left(3x^2 + \frac{1}{2\sqrt{x}} \right)cosec(x) - (x^3 + \sqrt{x})cotanx(x)cosec(x)
