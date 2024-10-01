@@ -1,10 +1,10 @@
 ### Chain Rule
 
-Let $y = f(u)$ and $u = g(x)$ being both differentiable and for all $x \in D(g)$ we have that $g(x) \in D(f)$. We can conclude that $f(g(x))$ is differentiable and $\frac{dy}{dx} = \frac{dy}{du}\frac{du}{dx}$
+Let $y = f(u)$ and $u = g(x)$ being both differentiable and for all $x \in dom(g)$ we have that $g(x) \in dom(f)$. We can conclude that $f(g(x))$ is differentiable and $\frac{dy}{dx} = \frac{dy}{du}\frac{du}{dx}$
 
 ## Proof
 
-If $\Delta u = g(x + \Delta x) - g(x) \neq 0$, $x$ and $x + \Delta x$ $\in D(g)$ then:
+If $\Delta u = g(x + \Delta x) - g(x) \neq 0$, $x$ and $x + \Delta x$ $\in dom(g)$ then:
 
 $$\frac{dy}{dx} = \lim_{\Delta x \to 0}\frac{f(g(x + \Delta x)) - f(g(x))}{\Delta x}$$
 
